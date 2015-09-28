@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="182dp"
+            android:text="@string/button_callForHelp"
+            android:id="@+id/button"
+            android:background="#ccebfd"
+            android:backgroundTint="#059df3"
+            android:clickable="true"
+            android:backgroundTintMode="src_over"
+            android:breakStrategy="balanced"
+            android:drawableTint="@android:color/background_dark"
+            android:elevation="@dimen/abc_action_bar_default_height_material"
+            android:fontFamily="@string/abc_action_bar_home_description"
+            android:visibility="visible"
+            android:textColorHighlight="@android:color/black"
+            android:textColor="@android:color/primary_text_light" />
+    </LinearLayout>
+</RelativeLayout>
